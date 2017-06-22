@@ -176,7 +176,7 @@ body {
     }
 
     .background-image {
-        background-image: url("none.jpg");
+        background-image: none;
         background-color: #e0e0eb;
         color: #525459;
     }
