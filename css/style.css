@@ -43,12 +43,12 @@ body {
 .myName {
     padding-top: 70px;
     text-align: center;
-    font-size: 40px;
+    font-size: 70px;
 }
 
 .myName span {
     display:block;
-    font-size: 25px;
+    font-size: 40px;
     margin-bottom: 40px;
 }
 
@@ -60,7 +60,7 @@ body {
     display: block;
     font-size: 16px;
     border-radius: 8px;
-    width: 120px;
+    width: 140px;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
@@ -80,34 +80,75 @@ body {
     font-size: 25px !important;
 }
 
-.content {
-    display: block;
-    background-color: #f4f4f2;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 80px;
-    /* padding: 40px 200px 0px 200px; */
+/* --------------- Responsive Section ----------*/
+
+.section-container {
+    padding: 5px;
+    width: 960px;
+    margin: 20px auto; /* Note: (auto) lo usamos para centrar elemento-caja */
 }
 
 .left-content {
-    /* background-color: #b5b5ab;*/
+    width: 586px;
     float: left;
-    width: 60%;
-}
-
-#wrapper-left-content {
-    padding-left: 250px; 
-    padding-right: 100px;
+    padding: 5px 15px;
 }
 
 .right-content {
-    vertical-align: middle;
-    float: right;
-    text-align: left;
-    /*background-color: #c6c6b6;*/
-    width: 25%;
-    font-size: 150px !important;
-    padding-right: 200px;
-    padding-top: 50px;
+    width: 300px;
+    float: left;
+    padding: 5px 15px;
+    margin: 0px 5px 5px 5px;
+    text-align: center;
+    padding-top: 6%;
+    font-size: 170px;
+    color: #4CAF50;
+}
+
+footer {
+    clear: both;
+    padding: 0 15px;
+}
+
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+    
+    .section-container {
+        width: 94%;
+    }
+    .left-content {
+        width: 41%;
+        padding: 1% 4%;
+    }
+    .right-content {
+        display: none;
+    }
+}
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+
+    .left-content {
+        width: auto;
+        float: none;
+    }
+    
+    .right-content {
+        display: block;
+        width: auto;
+        float: none;
+        margin-left: 0px;
+    }
+}
+
+.left-content {
+    /* background: #f8f8f8; */
+}
+
+.h-content, .left-content, .right-content {
+    margin-bottom: 5px;
+}
+
+.section-container, .h-content, .left-content, .right-content, footer {
+    /* border: solid 1px #ccc; */ 
 }
