@@ -120,6 +120,12 @@ body {
     padding: 0 15px;
 }
 
+#f-section a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
 .portafolio-link  {
     text-decoration: none;
 }
@@ -127,7 +133,6 @@ body {
 .portafolio-link:visited {
     color: black;
 }
-
 
 /* for 980px or less */
 @media screen and (max-width: 980px) {
@@ -195,12 +200,37 @@ footer {
 footer .quote {
     height: 30px;
     background-color: #333;
-    padding: 20px;
+    padding: 40px 20px 40px 20px;
     color: white;
     text-align: center;
     font-size: 25px;
 }
 
 footer .quote em {
+    display: block;
     font-size: 15px;
+}
+
+footer .socials {
+    text-decoration: none;
+    padding-top: 30px;
+    height: auto;
+    text-align: center;
+}
+
+footer .social:visited {
+    color: black;
+}
+
+footer .powered {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+}
+
+footer .socials a {
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
 }
