@@ -1,0 +1,1 @@
+This proyect is to learn about basic CSS and responsive
