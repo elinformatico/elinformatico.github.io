@@ -5,12 +5,12 @@ body {
 }
 
 .menu {
-    list-style-type: none;
+    list-style-type: none;  /* To remote the circles of the list */
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: hidden; 
     background-color: #333;
-    border-bottom: 2px solid #a9acb2;
+    /* border-bottom: 2px solid #a9acb2; */
 }
 
 .menu li {
@@ -33,11 +33,21 @@ body {
     background-color: #4CAF50;
 }
 
+/* --------  Header Content with image */
 .header-content {
     display: block;
     background-color: #e0e0eb;
     height: auto;
     padding: 20px 0px 70px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.background-image {
+     /* To put a background image*/
+    background-image: url("../images/header-image.jpg");
+    background-position: center top;
+    background-size: 100% auto;
 }
 
 .myName {
@@ -105,10 +115,19 @@ body {
     color: #4CAF50;
 }
 
-footer {
+#f-section {
     clear: both;
     padding: 0 15px;
 }
+
+.portafolio-link  {
+    text-decoration: none;
+}
+
+.portafolio-link:visited {
+    color: black;
+}
+
 
 /* for 980px or less */
 @media screen and (max-width: 980px) {
@@ -122,6 +141,11 @@ footer {
     }
     .right-content {
         display: none;
+    }
+
+    .quote {
+        padding-top: 20px !important;
+        font-size: 15px !important;
     }
 }
 
@@ -138,17 +162,45 @@ footer {
         width: auto;
         float: none;
         margin-left: 0px;
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .quote {
+        padding-top: 20px !important;
+        font-size: 13px !important;
     }
 }
 
+/* ---- Code to see the container */
+/*
 .left-content {
-    /* background: #f8f8f8; */
+    background: #f8f8f8;
 }
 
 .h-content, .left-content, .right-content {
     margin-bottom: 5px;
 }
 
-.section-container, .h-content, .left-content, .right-content, footer {
-    /* border: solid 1px #ccc; */ 
+.section-container, .h-content, .left-content, .right-content, #f-section {
+    border: solid 1px #ccc;
+}
+*/
+
+footer {
+    padding-top: 30px;
+    height: 200px;
+}
+
+footer .quote {
+    height: 30px;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+footer .quote em {
+    font-size: 15px;
 }
