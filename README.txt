@@ -1,18 +1,44 @@
-Software and Web Developer, experienced on Web Development applications using PHP and Java EE (design, implementation and testing). Interested on analysis and implementation of complete solutions and processes tooling/automation. Is certified in Sun Certified Java Programmer SCJP & Oracle Web Component Developer (Java EE6). Experience in Linux Administrator. Passion for Computer Science and Technologies.
+Directory Structure
+-------------------
+css\              - Stylesheets CSS files for the template.
+images\           - Images used in template.
+scripts\          - JavaScript used in the template.
+styles\           - SCSS source files for stylesheets CSS. Available in Purchased versions only.
+favicon.ico       - Favicon placeholder provided for the template.
+index.html        - Main HTML page to open the template in browser.
+*.html            - Additional HTML pages (if any).
+LICENSE-*.txt     - License file as per your downloaded variant.
 
-Knowledge in Unix Commands, Logical volume administration, package management, file systems, users, groups, file permissions and ownership, IP Tables, Server Configurations, Apache, MySQL, Maria DB, Postgress.
+How to Edit the template
+------------------------
 
-Linux Network configuration, Troubleshooting, Server Security, Secure Shell.
+1. Editing Content in template
 
-- PHP > 5 Programmer
-- Laravel > 5
-- Knowledge in Control version, GIT and SVN (Production and Development Enviroments)
-- Social Programmer (Github "https://github.com/elinformatico")
-- Cloud Server Administrator (DigitalOcean, Rackspace)
-- WEB 2.0 Technologies (HTML5, Javascript, JQuery, Angular JS, Ajax, CSS)
-- Linux Server Administrator
-- Databases (MySQL, PostgreSQL, DB2)
-- Java (SE, EE)
-- Freelancer as Web Applications Developer
-- Design Patterns (MVC, Singleton, Factory)
-- Application Development for Social Networks.
+To edit the content open the corresponding *.html files and open them
+in an editor such as VSCode or Notepad++.
+Search for the content you want to change and edit it to the text you want.
+Save the file and reopen HTML file in browser to see the changes.
+
+2. Editing Styles of template
+
+The main style is present in css\main.css which you can edit.
+You must know how to edit CSS files to do this.
+If you have purchased any of the premium version then you will also get
+SCSS source files which generates all the styles of the template.
+You can use these SCSS files to make your changes and regenerate CSS.
+
+3. Changing Images
+
+You can change images inside the images\ folder.
+Make sure to name the file same as the original file.
+If you wish to change the name of the image file then you must
+also make corresponding change in the HTML file which refer to that image.
+
+How to use the template
+-----------------------
+Upload the contents to your webserver.
+index.html must be in the main (root) folder of your webserver.
+Do not change the name of the template folders or files unless you know
+what you are doing and are changing the names in HTML files too.
+For webhosting, you can go with https://templateflip.com/go/hosting for easy FTP file uploads.
+
