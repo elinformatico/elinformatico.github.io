@@ -5284,3 +5284,12 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0; }
+
+.about-me {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.hidde-element {
+    display: none;
+}
