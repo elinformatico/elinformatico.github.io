@@ -6,6 +6,11 @@ $(document).ready(function() {
     // uncomment below for on-scroll animations to played only once
     // once: true  
   }); // initialize animate on scroll library
+  console.log('Hello, Welcome to my Professional Profile Web Page :)');
+
+  // Set Current Day
+  var current_year = new Date().getFullYear();
+  $("#current_year").text(current_year);
 });
 
 // Smooth scroll for links with hashes
