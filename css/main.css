@@ -5290,6 +5290,12 @@ a.credit {
     text-justify: inter-word;
 }
 
+/* Customs Style by Noe */
 .hidde-element {
     display: none;
+}
+
+.form-not-working {
+    font-style: italic;
+    font-size: 10px;
 }
